@@ -92,6 +92,9 @@
             #menu:checked ~ .menu{
                 display: initial;
             }
+       .ubi-iframe{
+       width: 300px;
+       }
 }
 html{
     scroll-behavior: smooth;
