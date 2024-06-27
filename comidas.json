@@ -1,0 +1,59 @@
+
+[
+    {
+        "id": 1,
+        "Menu": "FastFood", 
+        "Plato": "Pizza", 
+        "Precio": 8000 ,  
+        "image":"/imagenes/pizza.jpg" 
+    },
+    {
+        "id": 2,
+        "Menu": "Ejecutivo",
+        "Plato": "Pasta Veggi",
+        "Precio": 4500,
+        "image":"/imagenes/pasta-veggi.jpg"
+    },
+    {
+        "id": 3,
+        "Menu": "FastFood",
+        "Plato": "Empanadas",
+        "Precio": 6000,
+        "image":"/imagenes/empanadas.jpg"
+    },
+    {
+        "id": 4,
+        "Menu": "FastFood",
+        "Plato": "Hamburguesa",
+        "Precio": 5000,
+        "image":"/imagenes/hambur.jpg"
+    },
+    {
+        "id": 5,
+        "Menu": "Ejecutivo",
+        "Plato": "Carne con guarnición",
+        "Precio": 12000 ,
+        "image":"/imagenes/carne.jpg"
+    },
+    {
+        "id": 6,
+        "Menu": "Ejecutivo",
+        "Plato": "Bruschetta",
+        "Precio": 9000 ,
+        "image":"/imagenes/bruscheta.jpg"
+    },
+    {
+        "id": 7,
+        "Menu": "FastFood",
+        "Plato": "Pancho",
+        "Precio": 3000 ,
+        "image":"/imagenes/pancho.jpg"
+    },
+    {
+        "id": 8,
+        "Menu": "Ejecutivo",
+        "Plato": "Papas Gramajo",
+        "Precio": 10000,
+        "image":"/imagenes/papasgramajo.jpg"
+    }
+]

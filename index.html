@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Puntano | Restaurante</title>
+    <link rel="stylesheet" href="estiloultproyec.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- HOME -->
+    <div class="container-fluid contenedor-home" id="Home">
+        <div class="row-1">
+            <div class="col header">
+                <img src="imagenes/imagenlogo-removebg-preview.png"  class="logo">
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="imagenes/menu.png" class="menu-icono" alt="">
+                </label>
+                <ul class="menu">
+                    <li class="item" ><a href="#Home">Home</a></li>
+                    <li class="item"><a href="#Nosotros">Nosotros</a></li>
+                    <li class="item"><a href="#Menu">Menu</a></li>
+                    <li class="item"><a href="#Reserva">Reserva</a></li>
+                    <li class="item"><a href="#Ubicacion">Ubicacion</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+  <!-- NOSOTROS -->
+    <div class="container-fluid" id="Nosotros">
+        <div class="row">
+            <div class="col contenedorpadre">
+                    <div class="contenedor">
+                      <h1>Nosotros</h1>
+                      <p >EL PUNTANO es un restaurante moderno, ubicado en el corazón de la Capital de San Luis. Desde su inauguración en el año 2001, el lugar se destaca por su prestigio en la calidad y frescura de sus platos, como en el esmerado servicio y la cuidada atención del salón, en un ambiente diseñado según las últimas tendencias de vanguardia, el cuidado en cada detalle y la delicada combinación de sabores y aromas, caracterizan una exclusiva carta de platos elaborados especialmente por nuestros chef y su equipo. Además de su imponente cava de vinos que alberga las marcas más prestigiosas de nuestro país. <br><br>
+            
+                        Dentro de nuestras instalaciones podemos destacar su confortable living de espera, su barra de tragos y café. Una exclusiva sala privada para reuniones especiales, además de su elegante salón principal. <br><br>
+                          
+                        Pensado para almuerzos y cenas de trabajo, como así también como un espacio de distención y disfrute.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-- MENU -->
+    <div class="container-fluid" id="Menu">
+        <div class="row partMenu">
+            <div class="col-sm-6 cont6-1-Menu">
+                    <h1>MENU</h1>
+                    <p>Una progresión de ingredientes raros y hermosos donde la textura, el sabor y la armonía son primordiales. 
+                    Sumérjase en la experiencia gastronómica de "El Puntano" y una carta de vinos cuidadosamente seleccionada .</p>
+                    <button class="btn-menu"><a href="indexmenu.html">LEER MÁS</a></button>
+            </div>
+            <div class="col-sm-6 cont6-2-Menu"></div>
+        </div>
+    </div>
+    <!-- RESERVA --> 
+        <div class="container-fluid contenedor-reserva" id="Reserva">
+            <div class="row">
+                <div class="col reserva-contenedor">
+                    <div class="form-container">
+                    <form onsubmit="return mostrarAlerta()">
+                        <h2>Reserva de mesa</h2>
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                             <label for="dni" >Dni</label>
+                            <input type="text" id="dni" required min="1" max="60000000">
+                        </div>
+                        <div class="form-group">
+                            <label for="dia">Dia</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Turno</label>
+                            <div class="form-check">
+                              <input type="radio" id="almuerzo" name="turno" value="almuerzo" required>
+                              <label class="form-check-label" for="almuerzo">Almuerzo</label>
+                            </div>
+                            <div class="form-check">
+                              <input type="radio" id="cena" name="turno" value="cena" required>
+                              <label class="form-check-label" for="cena">Cena</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn-primary">Reservar</button>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- UBICACION -->
+        <div class="container-fluid section-ubicacion" id="Ubicacion">
+            <div class="row">
+                <div class="col">
+                    <h2 class="titulo-ubicacion">Ubicacion de nuestro Restaurant</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.020422890084!2d-66.34219442529033!3d-33.292128689419904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d4394eec782487%3A0x2bcfdfba83514ad4!2sUniversidad%20Nacional%20de%20San%20Luis!5e0!3m2!1ses!2sar!4v1718119380565!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> 
+                    </iframe> 
+                </div>
+            </div>
+        </div>
+ <!-- WHATSAPP -->
+    <section>
+        <div>
+            <a href="http://api.whatsapp.com/send?phone=26655555" class="btn-wsp" target="_blank">
+                <i><img src="imagenes/wspPNG.png"></i>
+            </a>
+        </div>
+    </section>
+<!-- FOOTER -->
+        <div class="container-fluid" style="background-color: black;">
+        <div class="row partFooter">
+            <div class="col-sm-4 contenedor-footer">
+                <img class="logo" src="imagenes/imagenlogo-removebg-preview.png" >
+                <h3>EL PUNTANO</h3>
+                <p>SEGUINOS EN</p>
+                <ul class="list-redes">
+                    <li>
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-4 contenedor-footer">
+                <ul class="footer-contacto1">
+                    <li>Dirección: <p>Av. Ejército de los Andes</p></li>
+                    <li>Telefono: <p>+54 26655555</p></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 contenedor-footer">
+             <ul class="footer-contacto1">
+                <li>Email: <p>elpuntano@gmail.com</p></li>
+                <li>Horario de atencion: <p>Lunes a sabado de 12:00 a 15:00<br>y de 21:00 a 00:00 hs.</p></li>
+             </ul>
+            </div>
+        </div>
+    </div>
+        <script src="javascrippriyect.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

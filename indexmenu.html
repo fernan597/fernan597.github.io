@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Menu | El Puntano</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilomenu.css">
+</head>
+<body>
+<header>
+  <div class="container" style="height: 100px;">
+    <div class="row">
+      <div class="col header">
+        <img src="imagenes/imagenlogo-removebg-preview.png"  class="logo">
+                <input type="checkbox" id="menu">
+                <label for="menu">
+                    <img src="imagenes/menu.png" class="menu-icono" alt="">
+                </label>
+                <ul class="menu">
+                    <li class="item"><a href="index.html">Home</a></li>
+                    <li class="item"><a href="index.html">Nosotros</a></li>
+                    <li class="item"><a class="selected">Menu</a></li>
+                    <li class="item"><a href="index.html">Reserva</a></li>
+                    <li class="item"><a href="index.html">Ubicacion</a></li>
+                </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <p>
+        <button class="btn btn-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+          Filtros
+        </button>
+      </p>
+      <div style="min-height: 70px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+          <div class="card card-body" style="width: 300px; background-color: gold;">
+            <form action="">
+            <label class="label-filtro" for="select-filtro">Ordenar: </label>
+            <select name="" id="select-filtro">
+              <option value="" disabled selected>Elija una opcion...</option>
+              <option value="menor">Menor a mayor</option>
+              <option value="mayor">Mayor a menor</option>
+            </select>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container " style="margin-top: 20px;" >
+  <div class="row">
+    <div class="col partCard">
+    
+    </div>
+  </div>   
+</div>
+<!-- WHATSAPP FLOTANTE -->
+<section>
+  <div>
+      <a href="http://api.whatsapp.com/send?phone=26655555" class="btn-wsp" target="_blank">
+          <i><img src="imagenes/wspPNG.png"></i>
+      </a>
+  </div>
+</section>
+<div class="container-fluid" style="background-color: black;">
+  <div class="row partFooter">
+      <div class="col-sm-4 contenedor-footer">
+          <img class="logo" src="imagenes/imagenlogo-removebg-preview.png" >
+          <h3>EL PUNTANO</h3>
+          <p>SEGUINOS</p>
+          <ul class="list-redes">
+              <li>
+                  <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                  <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li>
+                  <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                  <a href="https://www.tiktok.com/"><i class="fab fa-tiktok"></i></a>
+              </li>
+          </ul>
+      </div>
+      <div class="col-sm-4 contenedor-footer">
+        <ul class="footer-contacto1">
+            <li>Dirección: <p>Av. Ejército de los Andes</p></li>
+            <li>Telefono: <p>+54 26655555</p></li>
+        </ul>
+    </div>
+    <div class="col-sm-4 contenedor-footer">
+     <ul class="footer-contacto1">
+        <li>Email: <p>elpuntano@gmail.com</p></li>
+        <li>Horario de atencion: <p>Lunes a sabado de 12:00 a 15:00<br>y de 21:00 a 00:00 hs.</p></li>
+     </ul>
+    </div>
+  </div>
+</div>
+  <script src="/javascrippriyect.js"></script>
+  <script src="/index.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
