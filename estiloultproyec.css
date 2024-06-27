@@ -210,6 +210,7 @@ div[id]{
     
     }
     .form-group input[type="text"],
+    .form-group input[type="number"],
     .form-group input[type="date"]{
      width: calc(100% - 20px);
      padding: 10px;
