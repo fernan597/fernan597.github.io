@@ -95,6 +95,9 @@
        .ubi-iframe{
        width: 300px;
        }
+       .contenedorpadre{
+              height: auto;
+       }
 }
 html{
     scroll-behavior: smooth;
