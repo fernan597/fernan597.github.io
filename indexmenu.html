@@ -37,17 +37,22 @@
           Filtros
         </button>
       </p>
-      <div style="min-height: 70px;">
+      <div style="min-height: 100px;">
         <div class="collapse collapse-horizontal" id="collapseWidthExample">
           <div class="card card-body" style="width: 300px; background-color: gold;">
-            <form action="">
             <label class="label-filtro" for="select-filtro">Ordenar: </label>
             <select name="" id="select-filtro">
               <option value="" disabled selected>Elija una opcion...</option>
               <option value="menor">Menor a mayor</option>
               <option value="mayor">Mayor a menor</option>
             </select>
-          </form>
+            <label class="label-filtro" for="select-menu">Mostrar solo un menu</label>
+            <select id="select-menu">
+              <option value="" disabled selected>Elija una opcion...</option>
+              <option value="fastFood">Fast-Food</option>
+              <option value="ejecutivo">Ejecutivo</option>
+            </select>
+            <button type="button" id="resetFiltros" class="btn btn-outline-dark " style="margin-top: 5px;">Elminar filtros...</button>
           </div>
         </div>
       </div>
